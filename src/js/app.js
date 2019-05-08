@@ -11,9 +11,7 @@ const calcBonus = (price) => {
     finalBonus = (finalPrice * 0.05);
     finalBonus = Math.round(finalBonus);
   }
-  else {
-    finalBonus = 0;
-  }
+  
   return finalBonus;
 
 }
